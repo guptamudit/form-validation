@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #df826c;
+  color: #000; /* Set text color to black for better visibility on light background */
+}
+.form-control {
+  color: #ee7214; /* Set text color inside input fields */
+}
+.container {
+  width: 400px;
+  background-color: #f9e8d9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px; /* Adjust as needed for spacing from the top */
+}
+
+.btn-primary {
+  background-color: #f7b787;
+  color: #000; /* Set text color to black for better visibility on light background */
+}
+
+.error-shake {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
